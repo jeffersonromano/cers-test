@@ -1,0 +1,37 @@
+.formulario {
+  background-color: #e3f6f5;
+  padding: 50px;
+}
+
+.secao-nome {
+  width: 100%;
+}
+
+#form-contato {
+ width: 100%;
+}
+
+.campos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.campos label {
+  width: 100%;
+}
+
+.formulario input[type="text"], input[type="email"], input[type="tel"], textarea {
+  width: 90%;
+  padding: 25px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #bae8e8;
+  color: #2c698d;
+  border: none;
+}
+
+.formulario input[type="submit"] {
+  display: block;
+}
